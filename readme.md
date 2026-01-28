@@ -20,19 +20,19 @@ Page content (FR/EN) is stored in **JSON** files and rendered server-side with W
 - An external Docker network named `traefik` (if using Traefik as provided)
 
 ### Start
-'''bash
+```bash
 docker compose up -d --build
-'''
+```
 
 ### Logs
-'''bash
+```bash
 docker compose logs -f
-'''
+```
 
 ### Stop
-'''bash
+```bash
 docker compose down
-'''
+```
 
 ---
 
@@ -58,15 +58,15 @@ Key points from `docker-compose.yml`:
 ### Option A — Docker only
 Add this to the `portfolio` service in `docker-compose.yml`:
 
-'''yaml
+```yaml
 ports:
   - "8080:8080"
-'''
+```
 
 Then:
-'''bash
+```bash
 docker compose up -d --build
-'''
+```
 
 Open:
 - http://localhost:8080
@@ -79,18 +79,18 @@ Open:
 - Wt development packages (libraries `wt` and `wthttp` + headers)
 
 #### Build
-'''bash
+```bash
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --config Release
-'''
+```
 
 #### Run
-'''bash
+```bash
 ./build/portfolio_wt \
   --docroot=public \
   --http-address=0.0.0.0 \
   --http-port=8080
-'''
+```
 
 ---
 
@@ -126,7 +126,7 @@ The language switcher updates the URL by injecting/replacing `lang` in the query
 
 ## Project structure
 
-'''text
+```text
 .
 ├── CMakeLists.txt
 ├── Dockerfile
@@ -135,7 +135,7 @@ The language switcher updates the URL by injecting/replacing `lang` in the query
 ├── src/             # C++ sources
 ├── public/          # Static assets (CSS/JS/favicon/robots)
 └── content/         # JSON content (FR/EN)
-'''
+```
 
 ### Content / i18n
 The `content/` folder contains one JSON file per page and per language, for example:
@@ -152,9 +152,9 @@ This project uses a multi-stage build:
 1. **build** stage installs `g++`, `cmake`, `make`, `wt-dev` and compiles the binary
 2. **runtime** stage installs `wt`, copies the binary + `public/` + `content/`, then runs:
 
-'''bash
+```bash
 ./portfolio_wt --docroot=public --http-address=0.0.0.0 --http-port=8080
-'''
+```
 
 ---
 
