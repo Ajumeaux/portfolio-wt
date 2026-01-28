@@ -1,0 +1,27 @@
+{
+  "header": {
+    "name": "Antoine Jumeaux",
+    "tagline": "Architecte logiciel – C++ / Systèmes / Jeux"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "backHome": "← Retour à l’accueil",
+    "readMore": "En savoir plus →",
+    "browseProjects": "Voir tous les projets →",
+    "contactCta": "Contacter →",
+    "viewOnGithub": "Voir sur GitHub"
+  },
+  "titles": {
+    "projectsPage": "Projets",
+    "aboutHighlights": "Points clés",
+    "aboutExperience": "Expériences"
+  },
+  "errors": {
+    "projectNotFound": "Projet introuvable."
+  }
+}

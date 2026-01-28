@@ -1,0 +1,19 @@
+{
+  "title": "About",
+  "intro": "I’m a software architect, graduated from Epitech (2025), based in Lille. I enjoy designing robust, maintainable applications, with a strong preference for C++ and developer tooling.",
+  "highlights": [
+    "In 2024–2025, I completed a C++/Qt work-study program at Saint Maclou, joining a two-developer team (three of us in total including me) to build and evolve the CRM used by in-store sales staff. It was a great experience, especially around UX/UI and product work.",
+    "Alongside that, I’m building a personal 2D project (engine / tools / gameplay), which keeps me focused on architecture, performance, and code quality on a daily basis.",
+    "I’m very comfortable working remotely (organization, autonomy), and I’m also open to relocation if the project is a good fit. I have a calm temperament, I communicate clearly, and I can step back easily to solve problems properly.",
+    "As a hobby, I maintain a homelab (Docker, reverse proxy, SSO). Managing multiple users on my Jellyfin server pushed me to focus on security (Authentik, two-factor authentication). And I play video games regularly."
+  ],
+  "experience": [
+    "Alongside my studies (2020–2022), I worked as a bartender at the concession stand of a hockey club in Lambersart, to finance my housing and maintain stability throughout my studies.",
+    "In my second year, I completed a 4-month internship at Les Vikings (a development studio near Lyon) on a React / JavaScript / TypeScript stack. I notably built a browser extension to estimate the carbon impact of loading a web page (page weight and a hosting/datacenter-based estimation).",
+    "In my third year, I joined Ankama for a short assignment. A mismatch between the contractual scope and the actual work led me to end it early.",
+    "In 2023, I did an internship at Skypher (a startup in Paris) on a TypeScript/React stack, working on automation and pre-filling business documents. This experience mainly confirmed that I want to focus on lower-level topics and C++ — which is also why my portfolio is built with Wt."
+  ],
+  "extras": [
+    "Main stack: modern C++, Qt, Linux, Git, CMake, Docker. I’m looking for a C++ role focused on tooling/product/engine work (Lille or remote)."
+  ]
+}

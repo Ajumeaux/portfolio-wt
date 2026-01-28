@@ -1,0 +1,27 @@
+{
+  "header": {
+    "name": "Antoine Jumeaux",
+    "tagline": "Software architect – C++ / Systems / Games"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "backHome": "← Back to home",
+    "readMore": "Read more →",
+    "browseProjects": "Browse all projects →",
+    "contactCta": "Contact →",
+    "viewOnGithub": "View on GitHub"
+  },
+  "titles": {
+    "projectsPage": "Projects",
+    "aboutHighlights": "Highlights",
+    "aboutExperience": "Experiences"
+  },
+  "errors": {
+    "projectNotFound": "Project not found."
+  }
+}

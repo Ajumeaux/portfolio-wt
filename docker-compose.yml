@@ -1,0 +1,19 @@
+services:
+  portfolio:
+    build: .
+    container_name: portfolio-wt
+    networks:
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.portfolio.rule=Host(`portfolio.ajumax.com`)"
+      - "traefik.http.services.portfolio.loadbalancer.server.port=8080"
+      - "traefik.docker.network=traefik"
+      - "traefik.http.routers.portfolio.tls=true"
+      - "traefik.http.routers.portfolio.tls.certresolver=porkbun"
+      # - "traefik.http.routers.portfolio.middlewares=authentik@docker"
+    restart: unless-stopped
+
+networks:
+  traefik:
+    external: true

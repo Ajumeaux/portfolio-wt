@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "slug": "sfml-box2d-ecs",
+      "githubUrl": "https://github.com/ajumeaux",
+      "tags": ["C++", "SFML", "Box2D", "ECS", "GameDev"],
+      "text": {
+        "title": "2D Game Engine (SFML / Box2D / ECS)",
+        "shortDescription": "Custom 2D engine with physics and entity-component-system.",
+        "paragraphs": [
+          "A 2D side-view game/engine built with SFML for rendering, Box2D for physics, and a custom ECS for gameplay logic."
+        ],
+        "bullets": [
+          "Camera system with smooth following.",
+          "Designer tool for tiles / world editing.",
+          "Texture atlas, debugging overlays, etc."
+        ]
+      }
+    },
+    {
+      "slug": "store-tooling",
+      "githubUrl": "https://github.com/ajumeaux",
+      "tags": ["C++", "Qt", "DevOps", "Tooling"],
+      "text": {
+        "title": "Store Software Tooling",
+        "shortDescription": "Tools for deploying and rolling back store software.",
+        "paragraphs": [
+          "Internal tooling around deployment and rollback for store software, including a Qt-based version selector and SQL migration helpers."
+        ],
+        "bullets": [
+          "Version selector (Qt) with JSON metadata.",
+          "Rollback scripts mixing files and SQL dumps.",
+          "Designed to be usable by non-technical staff."
+        ]
+      }
+    },
+    {
+      "slug": "homelab-stack",
+      "githubUrl": "https://github.com/ajumeaux",
+      "tags": ["Docker", "Traefik", "Infra", "Self-hosted"],
+      "text": {
+        "title": "Personal Services Stack",
+        "shortDescription": "Self-hosted services behind Traefik and SSO.",
+        "paragraphs": [
+          "My personal homelab setup with Docker, Traefik, Authentik, and various self-hosted services."
+        ],
+        "bullets": [
+          "Reverse-proxy with Traefik.",
+          "Single Sign-On with Authentik.",
+          "Services routed via labels and middlewares."
+        ]
+      }
+    }
+  ]
+}

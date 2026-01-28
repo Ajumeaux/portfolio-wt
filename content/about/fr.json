@@ -1,0 +1,19 @@
+{
+  "title": "À propos",
+  "intro": "Je suis Architecte logiciel, diplômé d’Epitech (2025), basé à Lille. J’aime concevoir des applications robustes et maintenables, avec une préférence pour le C++ et l’outillage.",
+  "highlights": [
+    "En 2024–2025, j’ai réalisé une alternance chez Saint Maclou en C++ / Qt, au sein d’une équipe de 2 développeurs, pour concevoir et faire évoluer le CRM utilisé par les vendeurs en magasin. Très bonne expérience, notamment sur les sujets UX/UI et produit.",
+    "Je développe en parallèle un projet personnel en 2D (moteur / outils / gameplay), ce qui m’amène à travailler l’architecture, la performance, et la qualité du code au quotidien.",
+    "Je suis très à l’aise en télétravail (organisation, autonomie), et je peux aussi envisager une mobilité géographique si le projet me plaît. J’ai un tempérament calme, je communique simplement, et je prends facilement du recul pour résoudre les problèmes proprement.",
+    "En hobby, je maintiens un homelab (Docker, reverse-proxy, SSO). La gestion de plusieurs utilisateurs sur mon serveur Jellyfin m’a poussé à me concentrer sur la sécurité (Authentik, double facteur). Et je joue régulièrement aux jeux vidéo."
+  ],
+  "experience": [
+    "Pendant mes études (2020–2022), j’ai travaillé comme barman à la buvette d’un club de hockey à Lambersart, afin de financer mon logement et garder une stabilité sur la durée.",
+    "Lors de ma 2e année, j’ai effectué un stage de 4 mois chez Les Vikings (studio de développement près de Lyon) sur une stack React / JavaScript / TypeScript. J’y ai notamment développé une extension de navigateur pour estimer l’impact carbone du chargement d’une page web (taille de la page et estimation liée à l’hébergement/datacenter).",
+    "Durant ma troisième année, j'ai intégré Ankama pour une mission de courte durée. Un décalage entre le cadre contractuel et le contenu réel des missions m'a ammené à y mettre un terme rapidement.",
+    "En 2023, j’ai effectué un stage chez Skypher (startup à Paris) sur une stack TypeScript / React, autour de l’automatisation et du pré-remplissage de documents pour des entreprises. Cette expérience m’a surtout permis de confirmer mon envie de m’orienter vers des sujets plus bas niveau / C++ — c’est aussi pour ça que mon portfolio est réalisé en Wt."
+  ],
+  "extras": [
+    "Stack principale : C++ (modern), Qt, Linux, Git, CMake, Docker. Je recherche un poste orienté C++/outillage/produit (Lille ou remote)."
+  ]
+}

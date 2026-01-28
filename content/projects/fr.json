@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "slug": "sfml-box2d-ecs",
+      "githubUrl": "https://github.com/ajumeaux",
+      "tags": ["C++", "SFML", "Box2D", "ECS", "GameDev"],
+      "text": {
+        "title": "Moteur de jeu 2D (SFML / Box2D / ECS)",
+        "shortDescription": "Moteur 2D sur mesure avec physique et système entité-composant.",
+        "paragraphs": [
+          "Un jeu/moteur 2D en vue de côté, construit avec SFML pour le rendu, Box2D pour la physique, et un ECS maison pour la logique de gameplay."
+        ],
+        "bullets": [
+          "Système de caméra avec suivi fluide.",
+          "Outil d’édition pour tuiles / création du monde.",
+          "Atlas de textures, overlays de debug, etc."
+        ]
+      }
+    },
+    {
+      "slug": "store-tooling",
+      "githubUrl": "https://github.com/ajumeaux",
+      "tags": ["C++", "Qt", "DevOps", "Tooling"],
+      "text": {
+        "title": "Outillage logiciel magasin",
+        "shortDescription": "Outils pour déployer et revenir en arrière sur des logiciels magasin.",
+        "paragraphs": [
+          "Outillage interne pour le déploiement et le rollback de logiciels magasin, incluant un sélecteur de versions basé sur Qt et des assistants pour les migrations SQL."
+        ],
+        "bullets": [
+          "Sélecteur de versions (Qt) avec métadonnées JSON.",
+          "Scripts de rollback combinant fichiers et dumps SQL.",
+          "Conçu pour être utilisable par des personnes non techniques."
+        ]
+      }
+    },
+    {
+      "slug": "homelab-stack",
+      "githubUrl": "https://github.com/ajumeaux",
+      "tags": ["Docker", "Traefik", "Infra", "Self-hosted"],
+      "text": {
+        "title": "Stack de services personnels",
+        "shortDescription": "Services auto-hébergés derrière Traefik et un SSO.",
+        "paragraphs": [
+          "Mon homelab personnel avec Docker, Traefik, Authentik et différents services auto-hébergés."
+        ],
+        "bullets": [
+          "Reverse-proxy avec Traefik.",
+          "Single Sign-On avec Authentik.",
+          "Routage des services via labels et middlewares."
+        ]
+      }
+    }
+  ]
+}
